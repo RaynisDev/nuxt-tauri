@@ -1,0 +1,55 @@
+{
+  "name": "nuxt-tauri",
+  "version": "1.0.0",
+  "description": "Nuxt module for Tauri v2. Auto-configures SSR, auto-imports composables (useTauri, useTauriWindow, useTauriNotification) and provides $isTauri — zero boilerplate desktop-app integration.",
+  "type": "module",
+  "exports": {
+    ".": "./dist/module.mjs"
+  },
+  "main": "./dist/module.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "nuxt-module-build build",
+    "dev:prepare": "nuxt-module-build build --stub",
+    "prepack": "npm run build",
+    "release": "npm run build && npm publish --access public"
+  },
+  "devDependencies": {
+    "@nuxt/kit": "^4.4.2",
+    "@nuxt/module-builder": "^1.0.2",
+    "@nuxt/schema": "^4.4.2",
+    "nuxt": "^4.4.2"
+  },
+  "peerDependencies": {
+    "@tauri-apps/api": ">=2.0.0",
+    "nuxt": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@tauri-apps/api": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "tauri",
+    "tauri-v2",
+    "desktop",
+    "electron-alternative",
+    "composables",
+    "window-controls",
+    "notifications"
+  ],
+  "license": "MIT",
+  "author": "Chahine Brini <hello@chahine-brini.com> (https://chahine-brini.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaynisDev/nuxt-tauri.git"
+  },
+  "homepage": "https://github.com/RaynisDev/nuxt-tauri",
+  "bugs": {
+    "url": "https://github.com/RaynisDev/nuxt-tauri/issues"
+  }
+}
