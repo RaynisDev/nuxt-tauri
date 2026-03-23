@@ -34,13 +34,19 @@
   "keywords": [
     "nuxt",
     "nuxt-module",
+    "nuxtjs",
     "tauri",
     "tauri-v2",
     "desktop",
+    "desktop-app",
     "electron-alternative",
     "composables",
     "window-controls",
-    "notifications"
+    "notifications",
+    "cross-platform",
+    "rust",
+    "vue",
+    "vue3"
   ],
   "license": "MIT",
   "author": "Chahine Brini <hello@chahine-brini.com> (https://chahine-brini.com)",

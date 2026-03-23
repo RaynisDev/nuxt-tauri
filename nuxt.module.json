@@ -1,0 +1,22 @@
+{
+  "name": "nuxtjs-tauri",
+  "description": "Nuxt module for Tauri v2. Auto-configures SSR, auto-imports composables (useTauri, useTauriWindow, useTauriNotification) and provides $isTauri — zero boilerplate desktop-app integration.",
+  "repo": "RaynisDev/nuxt-tauri",
+  "npm": "nuxtjs-tauri",
+  "icon": "https://raw.githubusercontent.com/RaynisDev/nuxt-tauri/main/docs/icon.svg",
+  "github": "https://github.com/RaynisDev/nuxt-tauri",
+  "website": "https://github.com/RaynisDev/nuxt-tauri",
+  "learn_more": "https://github.com/RaynisDev/nuxt-tauri#readme",
+  "category": "Tool",
+  "type": "community",
+  "maintainers": [
+    {
+      "name": "Chahine Brini",
+      "github": "RaynisDev",
+      "twitter": ""
+    }
+  ],
+  "compatibility": {
+    "nuxt": ">=3.0.0"
+  }
+}
