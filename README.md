@@ -1,12 +1,12 @@
-# nuxt-tauri
+# nuxtjs-tauri
 
-[![npm version](https://img.shields.io/npm/v/nuxt-tauri.svg?color=blue)](https://www.npmjs.com/package/nuxt-tauri)
-[![npm downloads](https://img.shields.io/npm/dm/nuxt-tauri.svg)](https://www.npmjs.com/package/nuxt-tauri)
+[![npm version](https://img.shields.io/npm/v/nuxtjs-tauri.svg?color=blue)](https://www.npmjs.com/package/nuxtjs-tauri)
+[![npm downloads](https://img.shields.io/npm/dm/nuxtjs-tauri.svg)](https://www.npmjs.com/package/nuxtjs-tauri)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
 > Nuxt module for **Tauri v2** — the missing glue layer between Nuxt and native desktop.
 
-Add `nuxt-tauri` to your project and get:
+Add `nuxtjs-tauri` to your project and get:
 - ✅ `ssr: false` auto-configured (Tauri is always client-side)
 - ✅ `useTauri()` — type-safe `invoke()` + reactive `isTauri`
 - ✅ `useTauriWindow()` — minimize, maximize, fullscreen, close with one line
@@ -20,9 +20,9 @@ Add `nuxt-tauri` to your project and get:
 ## Install
 
 ```bash
-npm install nuxt-tauri
-# pnpm add nuxt-tauri
-# yarn add nuxt-tauri
+npm install nuxtjs-tauri
+# pnpm add nuxtjs-tauri
+# yarn add nuxtjs-tauri
 ```
 
 > **Peer dependency:** `@tauri-apps/api >= 2.0.0` must be installed in your project.
@@ -30,7 +30,7 @@ npm install nuxt-tauri
 ```ts
 // nuxt.config.ts
 export default defineNuxtConfig({
-  modules: ['nuxt-tauri'],
+  modules: ['nuxtjs-tauri'],
 })
 ```
 
@@ -134,7 +134,7 @@ async function notifyOrderReady() {
 ```ts
 // nuxt.config.ts
 export default defineNuxtConfig({
-  modules: ['nuxt-tauri'],
+  modules: ['nuxtjs-tauri'],
   tauri: {
     // Set to true only if you manage ssr:false yourself
     disableSsr: true, // default: true

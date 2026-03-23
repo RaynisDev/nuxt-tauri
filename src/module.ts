@@ -10,7 +10,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'nuxt-tauri',
+    name: 'nuxtjs-tauri',
     configKey: 'tauri',
     compatibility: { nuxt: '>=3.0.0' },
   },

@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-tauri",
+  "name": "nuxtjs-tauri",
   "version": "1.0.0",
   "description": "Nuxt module for Tauri v2. Auto-configures SSR, auto-imports composables (useTauri, useTauriWindow, useTauriNotification) and provides $isTauri — zero boilerplate desktop-app integration.",
   "type": "module",
